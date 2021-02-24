@@ -26,7 +26,7 @@ const NewsFull = () => {
             </div>
             <div className="row">
                 <div className="col s12">
-                    <img className="storyImg" src="https://cdn.gamer-network.net/2020/articles/2020-09-28-23-43/it-looks-like-more-details-on-pokemon-sword-and-shields-crown-tundra-expansion-are-coming-tomorrow-1601333008493.jpg/EG11/thumbnail/1920x1078/format/jpg/quality/80" alt=""/>
+                    <img className="storyImg" src="" alt="Story Art"/>
                 </div>
             </div>
             <div className="container">

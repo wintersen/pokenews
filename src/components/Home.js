@@ -1,5 +1,6 @@
 import React from 'react';
 import NewsSnip from './NewsSnip';
+import { connect } from 'react-redux';
 
 const Home = () => {
     return (
@@ -27,5 +28,6 @@ const Home = () => {
         
     )
 }
+const mapStateToProps()
 
-export default Home;
+export default connect()(Home);
