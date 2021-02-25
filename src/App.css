@@ -115,6 +115,10 @@ height: 100%;
   transform: rotate(350deg);
 }
 
+.contact .collection {
+  border: none !important;
+}
+
 .redLink {
   color: red
 }
