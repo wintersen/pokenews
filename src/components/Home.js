@@ -1,8 +1,25 @@
 import React from 'react';
 import NewsSnip from './NewsSnip';
-import { connect } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 const Home = () => {
+    const stories = useSelector(state => state.stories);
+    console.log(stories)
+
+    const snippets = stories.length ? (
+        stories.map(story => {
+            return (
+                <div className="row">
+                    <div className="col s12">
+                        <NewsSnip img={story.storyImg} headline={story.headline} tagline={story.tagline} id={story.id} />
+                    </div>
+                </div>
+            )
+        })
+    ) : (
+        <div className="section"><h5 className="center">Looking for news...</h5></div>
+    );
+
     return (
         <div className="container">
             <h4 className="center">The Littleroot Inquirer</h4>
@@ -16,18 +33,12 @@ const Home = () => {
             </div>
             <div className="divider"></div>
             <div className="section">
-                
-                <div className="row">
-                    <div className="col sm12">
-                        <NewsSnip />
-                    </div>
-                </div>
-                
+                { snippets }
             </div>            
         </div>
         
     )
 }
-const mapStateToProps()
 
-export default connect()(Home);
+
+export default Home;

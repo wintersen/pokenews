@@ -1,6 +1,6 @@
 import './App.css';
 import MainNav from './components/MainNav';
-import { BrowserRouter, Route, useParams } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Affiliates from './components/Affiliates';

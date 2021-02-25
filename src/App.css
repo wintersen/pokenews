@@ -28,16 +28,25 @@
   font-weight: bold;
 }
 .genreRow span:last-child {
-  flex-grow: 4;
+  flex-grow: 6;
+}
+
+.card .card-content {
+  width: 100%;
 }
 
 .card-image {
-  max-width: 35% !important;
-  height: 100%;
+  width: 35% !important;
+  height: 190px !important;
 }
 
 .card-image img{
 object-fit: cover;
+height: 100%;
+}
+
+.snipCard {
+  max-height: 190px;
 }
 
 .storyLink {
