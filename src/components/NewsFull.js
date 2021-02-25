@@ -41,8 +41,8 @@ const NewsFull = () => {
                     <img className="storyImg" src={story.storyImg} alt="Story Art"/>
                 </div>
             </div>
-            <div className="container">
-                <p><strong>{story.eyecatch}</strong></p><p><div dangerouslySetInnerHTML={{__html: story.body}}></div></p>
+            <div className="container storyFont">
+                <p><strong>{story.eyecatch}</strong></p><div dangerouslySetInnerHTML={{__html: '<p>'+story.body+'<p>'}}></div>
             </div>
         </div>
     )

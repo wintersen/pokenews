@@ -1,5 +1,6 @@
 import React from 'react';
 import ReporterImg from '../images/reporter.png'
+import Pokeball from '../images/pokeball.png';
 
 const About = () => {
     return (
@@ -27,6 +28,22 @@ const About = () => {
                         <p><strong>Feel confident when you choose The Littleroot Inquirer.</strong> Our paper has been awarded multiple accolades, notably including 
                         the <u>Quilava Seal of Quality</u> in 2004, the <u>Delibird Award for Thorough Research</u> in 2005, and most recently the Pokemon Research 
                         Insitute's highly coveted <u>Accuracy Badge</u> for a decade of news stories with high scientific accuracy and resources.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="section">
+                <div className="row">
+                    <div className="col s12 m6 offset-m3">
+                        <div className="card-panel red contact">
+                            <img src={Pokeball} alt=""/>
+                            <h4 className="white-text">Want to get in touch?</h4>
+                            <h5 className="white-text">Reach us at The Littleroot Inquirer at</h5>
+                            <ul className="collection">
+                                <li className="collection-item">contact@littlerootinquirer.pkn</li>
+                                <li className="collection-item">(012) 345 - 6789</li>
+                                <li className="collection-item">27 Zigzag Drive, Littleroot Town, Hoenn, 92720</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 
