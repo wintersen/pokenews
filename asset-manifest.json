@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pokenews/static/css/main.f741d2c8.chunk.css",
-    "main.js": "/pokenews/static/js/main.bba31774.chunk.js",
-    "main.js.map": "/pokenews/static/js/main.bba31774.chunk.js.map",
+    "main.js": "/pokenews/static/js/main.ce620e85.chunk.js",
+    "main.js.map": "/pokenews/static/js/main.ce620e85.chunk.js.map",
     "runtime-main.js": "/pokenews/static/js/runtime-main.86229465.js",
     "runtime-main.js.map": "/pokenews/static/js/runtime-main.86229465.js.map",
     "static/js/2.560c3bee.chunk.js": "/pokenews/static/js/2.560c3bee.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.86229465.js",
     "static/js/2.560c3bee.chunk.js",
     "static/css/main.f741d2c8.chunk.css",
-    "static/js/main.bba31774.chunk.js"
+    "static/js/main.ce620e85.chunk.js"
   ]
 }
