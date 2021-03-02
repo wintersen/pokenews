@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pokenews/static/css/main.f741d2c8.chunk.css",
+    "main.js": "/pokenews/static/js/main.bba31774.chunk.js",
+    "main.js.map": "/pokenews/static/js/main.bba31774.chunk.js.map",
+    "runtime-main.js": "/pokenews/static/js/runtime-main.86229465.js",
+    "runtime-main.js.map": "/pokenews/static/js/runtime-main.86229465.js.map",
+    "static/js/2.560c3bee.chunk.js": "/pokenews/static/js/2.560c3bee.chunk.js",
+    "static/js/2.560c3bee.chunk.js.map": "/pokenews/static/js/2.560c3bee.chunk.js.map",
+    "static/js/3.bb8adc90.chunk.js": "/pokenews/static/js/3.bb8adc90.chunk.js",
+    "static/js/3.bb8adc90.chunk.js.map": "/pokenews/static/js/3.bb8adc90.chunk.js.map",
+    "index.html": "/pokenews/index.html",
+    "static/css/main.f741d2c8.chunk.css.map": "/pokenews/static/css/main.f741d2c8.chunk.css.map",
+    "static/js/2.560c3bee.chunk.js.LICENSE.txt": "/pokenews/static/js/2.560c3bee.chunk.js.LICENSE.txt",
+    "static/media/pokeball.d7b6176e.png": "/pokenews/static/media/pokeball.d7b6176e.png",
+    "static/media/App.css": "/pokenews/static/media/pokeballbg.d2a4c491.png",
+    "static/media/reporter.339ca9a7.png": "/pokenews/static/media/reporter.339ca9a7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86229465.js",
+    "static/js/2.560c3bee.chunk.js",
+    "static/css/main.f741d2c8.chunk.css",
+    "static/js/main.bba31774.chunk.js"
+  ]
+}
