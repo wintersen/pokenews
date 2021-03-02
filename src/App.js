@@ -13,6 +13,7 @@ function App() {
       <div className="App">
         <MainNav />
         <Route exact path="/" component={ Home } />
+        <Route path="/pokenews/" component={Home} />
         <Route path="/about" component={ About } />
         <Route path="/affiliates" component={ Affiliates } />
         <Route path="/news/:story_id"> <NewsFull/></Route>
