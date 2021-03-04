@@ -55,6 +55,19 @@ const initState = {
             eyecatch: 'Did you notice that Pokemon eggs are all unique?',
             body: 'Not in the obvious way, of course.  Yes, it is very easy to see that Pokemon eggs all carry distinct patterns that indicate what species is waiting inside, and that these patterns are incredibly unique when compared to the eggs of other species.  But did you notice any small inconsistencies within the same species\' patterns themselves?  If you hadn\'t, don\'t feel too bad.  After thousands of years and observations on eggs, Prof. Oak has finally cumulated a measurable relationship between tiny, almost microscopic differences in pattern shape, placement, and size with the resulting Pokemon\'s nature.<br/><br/>"It\'s quite an interesting discovery," he says. "While it is difficult to witness without scientific apparatus, there are indeed small discrepencies on every Pokemon egg. Now, until we have a larger sample size to confirm our findings, I cannot say anything concrete, but I am quite confident in this theory." The professor then does on to add, "This could mean that breeders would have advance knowledge of their Pokemon in advance. While it does not mean much in the end--mints are, after all, a state-of-the-art medicine to change your Pokemon\'s nature and are easily accessible, we could use this for further research to see if there may be links to things such as Pokemon gender or ability as well." At the current moment, this research has not been published for the public, but we can expect to see an official publication in the coming year, if all goes well.'
         }
+    ],
+    affiliates: [
+        {name:'Bulbapedia', link:'https://bulbapedia.bulbagarden.net/wiki/Main_Page', desc:'Bulbapedia is an encyclopedia about Pokémon to which anyone can contribute.'},
+        {name:'Serebii', link:'https://serebii.net/', desc:'Stay up to date on Pokemon news of all kinds. Catch the latest developments in new games, the anime, or general news.'},
+        {name:'Official Site', link:'https://www.pokemon.com/us/', desc:'You can\'t get much better than the closest source there is on Pokemon.  Great for getting updates on new merch!'},
+        {name:'Polygon', link:'https://www.polygon.com/', desc:'While not specifically only Pokemon-centered news, our friends at Polygon still release headlines on the most current Pokemon news.'},
+        {name:'Smogon', link:'https://www.smogon.com/', desc:'For the competitive trainers, Smogon\'s database on Pokemon moves, builds, and other competitive info is irreplacable.'}
+    ],
+    authors: [
+        {name: 'Lief Greene', desc: 'Lief has been working for The Littleroot Times for decades. He loves interviewing up and coming trainers and judging who will be making it to the championship level. Lief also spends his time taking glamor shots in the forest.'},
+        {name: 'Agatha Ghastly', desc: 'Agatha is dedicated to reporting only the toughest of stories. You\'ll find her braving terrible storms and dangerous areas to get the newest scoop. Her favorite pokemon is Happiny.'},
+        {name: 'Brock Brock', desc: 'Brock somehow managed to convince The Littleroot Times publishing board to let him write opinion columns. He only writes about breeding. His dream is to one day get an exclusive interview with Nurse Joy.'},
+        {name: 'Maribelle Weathers', desc: 'Maribelle and her Mareep are The Littleroot Times\' most recognizable duo. Their specialty is reporting on Hoenn region Contests, and are retired Contest Champions themselves.  Maribelle loves exploring new towns and eating good food.'}
     ]
 };
 

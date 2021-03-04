@@ -9,7 +9,7 @@ const NewsSnip = ({img, headline, tagline, date, id}) => {
             </div>
             <div className="card-content">
                 <Link to={"/news/" + id}>
-                    <span className="card-title redLink">{headline}</span>
+                    <span className="card-title redLink serifFont">{headline}</span>
                 </Link>
                 <div className="divider"></div>
                 <span className='brown-text text-lighten-2'>{date}</span>

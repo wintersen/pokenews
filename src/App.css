@@ -113,6 +113,20 @@ height: 100%;
     font-size: 17px !important;
 }}
 
+.authorImg {
+  max-height: 75px;
+  max-width: 75px;
+  min-height: 50px;
+  min-width: 50px;
+  object-fit: fill;
+  margin-top: 1.1rem;
+}
+
+.whiteBg {
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
 /* CSS FOR ABOUT PAGE */
 .contact {
   overflow: hidden;
@@ -137,6 +151,14 @@ height: 100%;
   margin-top: 40px;
 }
 /* HELPER CSS CLASSES */
+.serifFont {
+  font-family: 'Newsreader', serif !important;
+}
+
+.fancyFont {
+  font-family: 'Abril Fatface', cursive !important;
+}
+
 .redLink {
   color: red
 }

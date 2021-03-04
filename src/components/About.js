@@ -5,9 +5,9 @@ import Pokeball from '../images/pokeball.png';
 const About = () => {
     return (
         <div className="container">
-            <h4 className="center">About</h4>
+            <h4 className="center fancyFont">About</h4>
             <div className="divider"></div>
-            <h5 className="center">Real News, Real Reporting, Real Pokemon</h5>
+            <h5 className="center serifFont">Real News, Real Reporting, Real Pokemon</h5>
             <div className="divider"></div>
             <div className="section">
                 <div className="row">
